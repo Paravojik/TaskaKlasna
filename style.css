@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 250px;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+input{
+    height: 46px;
+    width: 100%;
+    /* border: 1px solid black; */
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+.lowtab{
+    height: 46px;
+    width: 100%;
+
+    outline: none;
+    border-radius: 5px;
+    font-size: 24px;
+    padding-left: 30px; 
+    transition: 0.5s;
+}
+.btn{
+    height: 100%;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    position: relative;
+    transition: 1s;
+    cursor: pointer;
+
+}
