@@ -71,3 +71,11 @@ gmailInp.oninput = function(){
     followCursor: true,
     content:"Enter your password bettween 6 and 20 symbols"
   });
+
+  wrap.oninput= function(){
+    if(gmail==true && password==true && nick==true){
+$('.btn').css('backgroundColor','lightblue')
+    }else{
+        $('.btn').css('backgroundColor','blue') 
+    }
+  }
